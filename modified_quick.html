@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>modified quick sort </title>
+    <link rel="icon" type="image/x-icon" href="title-icon.png" />
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <div class="fun" >
+        <input type="file" name="inputfile" id="inputfile">
+      </div>
+      
+      <div class="upper-container">
+        <h1>Sorting Visualizer</h1>
+
+        <div class="btn-container">
+
+          <select name="algorithm" id="size">
+            <option value="small">SMALL</option>
+            <option value="medium">MEDIUM</option>
+            <option value="large">LARGE</option>  
+          </select>
+          <button id="sort">Sort</button>
+          <button id="new">New</button>
+        </div>
+      </div>
+      <div class="container"></div>
+      <div id="table"></div>
+      <h4>Time taken </h4>
+      <h4 id="h4"></h4>
+    </div>
+    <script src="modified_quick.js"></script>
+  </body>
+</html>

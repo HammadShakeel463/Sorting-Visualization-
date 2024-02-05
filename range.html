@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="title-icon.png" />
+    <title>Numbwe ranges</title>
+    <h1 style="text-align: center; color: white; background-color: rgb(43, 40, 40);" > WELCOME TO COUNTING SORTING </h1>
+    
+
+  </head>
+
+  <style>
+    table{
+        text-align: center;
+        margin: 100px;
+        width: calc(50% - 10%);
+    }
+    td , th {
+      border: 1px solid #cccccc ;  
+      width : 40px ;
+      text-align: center;
+      padding: 10px ;
+      gap : 1px;
+      color: white;
+    }
+  </style>
+
+
+  <body style="background-color: rgb(71, 68, 68) ;">
+    <div class="main-wrapper">
+        <div class="fun" >
+          <input type="file" name="inputfile" id="inputfile">
+        </div>
+        
+        <div class="upper-container" style="display: flex; align-items: center; flex-wrap: wrap; padding-block: 0.5rem; gap: 10px;">
+          <h1>Sorting Visualizer</h1>
+   
+          <div class="btn-container">
+            <button id="sort" style="width: 80px; font-size: 15px;">Calculate</button>
+            <button id="new" style=" font-size: 15px; width: 80px;">New</button>
+          </div>
+          <h4 style="text-align: center; color: white;">Time Taken: </h4>
+        <h4 id="h4" style="text-align: center; color: white;"></h4>
+        <h4 style="text-align: center; color: white;">Space Taken: </h4>
+        <h4 id="h42" style="text-align: center; color: white;"></h4>
+        
+        </div>
+        
+        <div id="div">
+            <table id="table" style="border: 1; "></table>
+        </div>
+        <div id="div">
+            <table id="table2" style="border: 1;"></table>
+            <table id="table3" ></table>
+
+        </div>
+        
+    <script src="range.js"></script>
+  </body>
+</html>
+

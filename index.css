@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap');
+
+*,
+*:after,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+}
+
+:root {
+  --bg: rgb(39, 39, 39);
+  --fr: rgb(240, 240, 240);
+  --spInd3: #fe2712;
+  --spInd2: #0247fe;
+  --spInd1: #b2d732;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+   /* justify-content: center;  */
+  align-items: center;
+  background-color: var(--bg);
+  line-height: 0.25;
+  padding-left: 50px;
+}
+
+h1 {
+  font-size: 1.75rem;
+}
+
+.main-wrapper {
+  width: 90%;
+  max-width: 650px;
+}
+
+.upper-container {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  flex-wrap: wrap;
+  padding-block: 0.5rem;
+  gap: 20px;
+  width: 900px;
+}
+
+h1 {
+  color: var(--fr);
+}
+h4 {
+  color: var(--fr);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+select,
+button {
+  background-color: transparent !important;
+  color: var(--fr);
+  padding: 5px 20px;
+  border: none;
+  outline: none;
+  border: 1px solid var(--fr);
+  cursor: pointer;
+}
+
+option {
+  background-color: var(--bg);
+}
+
+.container {
+  width: 100%;
+  height: 650px;
+  border: 2px solid var(--fr);
+  border-bottom-width: 20px;
+  padding: 0 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  gap: 3px;
+  
+}
+
+.numEle {
+  background-color: var(--fr);
+}
+
+.spInd1 {
+  background-color: var(--spInd1) !important;
+}
+
+.spInd2 {
+  background-color: var(--spInd2) !important;
+}
+
+.spInd3 {
+  background-color: var(--spInd3) !important;
+}
+
+.btn-container {
+  padding-block: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* @media (max-width: 600px) {
+  .container {
+    gap: 0;
+
+  }
+} */
+.container {
+  gap: 0;
+  width: 1500px;
+}
+.fun {
+  padding-top: 0.5rem;
+  display: flex;
+  color: azure;
+}
+
+.comp{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-block: 0.5rem;
+  gap: 10px;
+}

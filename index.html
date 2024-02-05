@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Sorting Visualizer</title>
+    <link rel="icon" type="image/x-icon" href="title-icon.png" /> -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Sorting Visualizer</title>
+    <link rel="icon" type="image/x-icon" href="title-icon.png" />
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <div class="fun" >
+        <input type="file" name="inputfile" id="inputfile">
+      </div>
+      
+      <div class="upper-container">
+        <h1>Sorting Visualizer</h1>
+        <select name="algorithm" id="algorithm">
+          <option value="bubble">Bubble Sort</option>
+          <option value="selection">Selection Sort</option>
+          <option value="insertion">Insertion Sort</option>
+          <option value="heap">Heap Sort</option>
+          <option value="merge">Merge Sort</option>
+          <option value="quick">Quick Sort</option>
+          <option value="radix">Radix Sort</option>
+
+        </select>
+
+        <div class="btn-container">
+
+          <select name="algorithm" id="size">
+            <option value="small">SMALL</option>
+            <option value="medium">MEDIUM</option>
+            <option value="large">LARGE</option>  
+          </select>
+
+          <button id="sort">Sort</button>
+          <button id="new">New</button>
+        </div>
+        
+      </div>
+      <div class="container"></div>
+      <div id="table"></div>
+      <div class="comp">
+        <h4>Time taken </h4>
+        <h4 id="h4"></h4>
+        <h4>Space taken </h4>
+        <h4 id="h42"></h4>  
+      </div>
+          </div>
+    <script src="index.js"></script>
+  </body>
+</html>
